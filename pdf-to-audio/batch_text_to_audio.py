@@ -29,7 +29,7 @@ def convert_module_to_audio(index):
         print(f"❌ Error converting module {index}: {e}")
 
 def main():
-    for i in range(1, MODULE_COUNT + 1):
+    for i in range(2, MODULE_COUNT + 1):
         convert_module_to_audio(i)
 
 if __name__ == "__main__":
