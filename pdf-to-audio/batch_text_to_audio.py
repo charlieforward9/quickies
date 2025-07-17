@@ -29,6 +29,7 @@ def convert_module_to_audio(index):
         print(f"❌ Error converting module {index}: {e}")
 
 def main():
+    print("🔊 Starting batch text to audio conversion...")
     for i in range(2, MODULE_COUNT + 1):
         convert_module_to_audio(i)
 
