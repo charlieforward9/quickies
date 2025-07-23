@@ -30,7 +30,7 @@ def convert_module_to_audio(index):
 
 def main():
     print("🔊 Starting batch text to audio conversion...")
-    for i in range(2, MODULE_COUNT + 1):
+    for i in range(3, MODULE_COUNT + 1):
         convert_module_to_audio(i)
 
 if __name__ == "__main__":
